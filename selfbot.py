@@ -10,8 +10,8 @@ import time, random, asyncio, timeit, sys, json, codecs, threading, glob, re, st
 
 print ("\n\n ---  welcome  ---\n")
 
-cl = RIDEN()
-#cl = RIDEN(authTokenRFU="YOUR TOKEN")
+#cl = RIDEN()
+cl = RIDEN(authTokenRFU="EyQmdyb1FkH6348eALYe.4mmCo+vYFoIBqL/pK8oydG.G70cAxOv9SipfBXT5Gm+W8CNQF9t+5jdxS/ZNuGwnVM=")
 cl.log("YOUR TOKEN : {}".format(str(cl.authToken)))
 channel = RIDENChannel(cl,cl.server.CHANNEL_ID['LINE_TIMELINE'])
 cl.log("CHANNEL TOKEN : " + str(channel.getChannelResult()))
@@ -25,7 +25,7 @@ RIDEN = RIDENPoll(cl)
 Rfu = [cl]
 INDUK = cl.profile.mid
 RfuBot=[INDUK]
-Owner=["u0098bf622a9b8849a9e53d7844bb12f8"]
+Owner=["ue0c31c3bf5727ce89b425f8f93c3980e"]
 RfuSekawan = RfuBot + Rfu + Owner
 
 contact = cl.getProfile()
@@ -61,7 +61,7 @@ Squad = {
     "Timeline":False,
     "Welcome":True,
     "BackupBot":True,
-    "WcText": "welcome salkenyot",
+    "WcText": "welcome.moga betah dan dpt tikungan yg cucok",
     "Leave":False,
     "LvText": "bay bay ✋✋ tiati dijalan ya...",
     "Mic":False,
@@ -77,7 +77,7 @@ Squad = {
     "Ban":False,
     "Unban":False,
     "Admin": {
-        "u0098bf622a9b8849a9e53d7844bb12f8":True #MID ADMIN
+        "ue0c31c3bf5727ce89b425f8f93c3980e":True #MID ADMIN
     },
 }
 
@@ -132,7 +132,7 @@ RfuCctv={
     "Point3":{}
 }
 
-Help ="""🉐🉐 GENERAL PYTHON3 🉐🉐
+Help ="""🉐🉐 KARAN PYTHON3 🉐🉐
 
    🈴 COMMAND 🈴
 🈴 me
@@ -193,7 +193,7 @@ Help ="""🉐🉐 GENERAL PYTHON3 🉐🉐
 🈴 mimiclist
 🈴 refresh
 
-   [🉑 GROUP 🉑]
+   [🉑 KARAN GROUP 🉑]
 🈳 leaveall grup
 🈳 kick [on,off->kickall]
 🈳 invite on/off
@@ -219,7 +219,7 @@ Help ="""🉐🉐 GENERAL PYTHON3 🉐🉐
 🈳 spaminvite on/off
 🈳 announce
 
-   [🉐 MEDIA 🉐]
+   [🉐 KARAN MEDIA 🉐]
 🉐 topnews
 🉐 data birth:
 🉐 urban:
