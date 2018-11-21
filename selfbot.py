@@ -11,7 +11,8 @@ import time, random, asyncio, timeit, sys, json, codecs, threading, glob, re, st
 print ("\n\n ---  welcome  ---\n")
 
 #cl = RIDEN()
-cl = RIDEN(authTokenRFU="EyQmdyb1FkH6348eALYe.4mmCo+vYFoIBqL/pK8oydG.G70cAxOv9SipfBXT5Gm+W8CNQF9t+5jdxS/ZNuGwnVM=")
+cl = RIDEN(authTokenRFU="Eze8woG4xDBpAqrkuIYe.Xt86VeDOj7ofKvBS80TfRG.0XigpyCylfBIbA0JByFkVNu2Qd1LSMURhJ0oawPX1cQ=
+")
 cl.log("YOUR TOKEN : {}".format(str(cl.authToken)))
 channel = RIDENChannel(cl,cl.server.CHANNEL_ID['LINE_TIMELINE'])
 cl.log("CHANNEL TOKEN : " + str(channel.getChannelResult()))
@@ -25,7 +26,7 @@ RIDEN = RIDENPoll(cl)
 Rfu = [cl]
 INDUK = cl.profile.mid
 RfuBot=[INDUK]
-Owner=["ue0c31c3bf5727ce89b425f8f93c3980e"]
+Owner=["uc53f3abc476827b3859156ecf34b45ae"]
 RfuSekawan = RfuBot + Rfu + Owner
 
 contact = cl.getProfile()
@@ -77,7 +78,7 @@ Squad = {
     "Ban":False,
     "Unban":False,
     "Admin": {
-        "ue0c31c3bf5727ce89b425f8f93c3980e":True #MID ADMIN
+        "uc53f3abc476827b3859156ecf34b45ae":True #MID ADMIN
     },
 }
 
