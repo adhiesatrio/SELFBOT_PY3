@@ -11,8 +11,7 @@ import time, random, asyncio, timeit, sys, json, codecs, threading, glob, re, st
 print ("\n\n ---  welcome  ---\n")
 
 #cl = RIDEN()
-cl = RIDEN(authTokenRFU="Eze8woG4xDBpAqrkuIYe.Xt86VeDOj7ofKvBS80TfRG.0XigpyCylfBIbA0JByFkVNu2Qd1LSMURhJ0oawPX1cQ=
-")
+cl = RIDEN(authTokenRFU="EzDsElNzVGEqeyvVGvGa.7zXlJd3CVSYX3A9y5OSvoG.o2zuOlU8BlaGzQQoMfhVVMQr4fp2AeTuq5nxnBeuiNc=")
 cl.log("YOUR TOKEN : {}".format(str(cl.authToken)))
 channel = RIDENChannel(cl,cl.server.CHANNEL_ID['LINE_TIMELINE'])
 cl.log("CHANNEL TOKEN : " + str(channel.getChannelResult()))
@@ -26,7 +25,7 @@ RIDEN = RIDENPoll(cl)
 Rfu = [cl]
 INDUK = cl.profile.mid
 RfuBot=[INDUK]
-Owner=["uc53f3abc476827b3859156ecf34b45ae"]
+Owner=["ued9c4b8c3ddcbeccb1ddaf58e68b153a"]
 RfuSekawan = RfuBot + Rfu + Owner
 
 contact = cl.getProfile()
@@ -78,7 +77,7 @@ Squad = {
     "Ban":False,
     "Unban":False,
     "Admin": {
-        "uc53f3abc476827b3859156ecf34b45ae":True #MID ADMIN
+        "ued9c4b8c3ddcbeccb1ddaf58e68b153a":True #MID ADMIN
     },
 }
 
@@ -862,7 +861,7 @@ def RIDEN_FAST_USER(fast):
                         elif rfuText.lower() == "speed":
                             if user in RfuSekawan or user in Squad["Admin"]:
                                 no = time.time()
-                                cl.sendText("u4862fe4b182b2fd194a3108e2f3662e8", ' ')
+                                cl.sendText("ued9c4b8c3ddcbeccb1ddaf58e68b153a", ' ')
                                 elapsed_time = time.time() - no
                                 cl.sendText(kirim, "%s" % (elapsed_time))
 
