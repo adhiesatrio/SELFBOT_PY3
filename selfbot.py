@@ -133,7 +133,7 @@ RfuCctv={
     "Point3":{}
 }
 
-Help ="""🉐🉐 KARAN PYTHON3 🉐🉐
+Help ="""🉐🉐 ASOCKA PYTHON3 🉐🉐
 
    🈴 COMMAND 🈴
 🈴 me
@@ -194,7 +194,7 @@ Help ="""🉐🉐 KARAN PYTHON3 🉐🉐
 🈴 mimiclist
 🈴 refresh
 
-   [🉑 KARAN GROUP 🉑]
+   [🉑 ASOCKA GROUP 🉑]
 🈳 leaveall grup
 🈳 kick [on,off->kickall]
 🈳 invite on/off
@@ -220,7 +220,7 @@ Help ="""🉐🉐 KARAN PYTHON3 🉐🉐
 🈳 spaminvite on/off
 🈳 announce
 
-   [🉐 KARAN MEDIA 🉐]
+   [🉐 ASOCKA MEDIA 🉐]
 🉐 topnews
 🉐 data birth:
 🉐 urban:
@@ -251,7 +251,7 @@ Help ="""🉐🉐 KARAN PYTHON3 🉐🉐
 🈸 malaysia:
 🈸 jawa:
 
-🉐🉐 RAMBATE RATA HAYO 🉐🉐
+🉐🉐 MENCOBA ADALAH PENGALAMAN 🉐🉐
 """"________________________"
 
 #------------------------------------------------ SCRIP DEF ----------------------------------------------------------#
